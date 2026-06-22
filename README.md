@@ -34,7 +34,6 @@ MovieBot/
 ├── moviebot.py
 └── README.md
 ```
-
 ## ▶️ How to Run
 
 ### 1. Clone Repository
