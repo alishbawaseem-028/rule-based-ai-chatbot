@@ -1,36 +1,124 @@
-# Rule-Based AI Chatbot
+# 🎬 MovieBot - Movie Recommendation Chatbot
 
-**Project 1** - DecodeLabs Industrial Training Kit (Batch 2026)
+MovieBot is a Rule-Based AI Chatbot developed using Python that helps users discover movies based on their favorite genres. The chatbot provides movie recommendations, genre descriptions, and an interactive conversation experience.
 
----
+## 📌 Project Overview
 
-## 📋 Project Overview
+MovieBot was developed to demonstrate the implementation of a rule-based chatbot using Python dictionaries, conditional statements, loops, and predefined responses.
 
-This is a simple **Rule-Based AI Chatbot** built as part of DecodeLabs AI Training Program. The chatbot uses explicit if-else logic and a dictionary-based knowledge base to respond to user inputs.
+The chatbot allows users to explore different movie genres and receive movie recommendations instantly.
 
-### Key Features
+## ✨ Features
 
-- Continuous conversation loop
-- Input sanitization (case-insensitive & whitespace handling)
-- Dictionary-based responses (Hash Map - O(1) lookup)
-- Hybrid Architecture demonstration (Rule-based + LLM simulation)
-- Clean exit strategy
-- Additional smart responses using nested conditions
+* Movie recommendations by genre
+* Genre descriptions
+* Interactive command-based chatbot
+* Dictionary-based knowledge storage
+* Input sanitization using `lower()` and `strip()`
+* Continuous conversation loop
+* Help command for user guidance
+* Genres command to display available movie categories
+* Exit command to close the chatbot
 
----
+## 🛠 Technologies Used
 
-## 🛠️ Technologies Used
+* Python 3
+* Dictionary Data Structure
+* Rule-Based AI Logic
 
-- Python 3
-- Control Flow & Logic
-- Dictionaries (Hash Maps)
-- Command Line Interface
+## 📂 Project Structure
 
----
+```text
+MovieBot/
+│
+├── moviebot.py
+└── README.md
+```
 
-## 🚀 How to Run
+## ▶️ How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/alishbawaseem-028/rule-based-ai-chatbot.git
-   cd rule-based-ai-chatbot
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/alishbawaseem-028/rule-based-ai-chatbot.git
+```
+
+### 2. Open Project Folder
+
+```bash
+cd MovieBot
+```
+
+### 3. Run the Program
+
+```bash
+python moviebot.py
+```
+
+## 💬 Available Commands
+
+| Command    | Description           |
+| ---------- | --------------------- |
+| hello / hi | Start conversation    |
+| help       | Show help menu        |
+| genres     | Show available genres |
+| exit       | Close MovieBot        |
+
+## 🎥 Supported Genres
+
+* Action
+* Comedy
+* Horror
+* Science Fiction
+
+## 💬 Sample Conversation
+
+```text
+You: genres
+
+Available Genres:
+- Action
+- Comedy
+- Horror
+- Science Fiction
+
+You: action
+
+Genre: Action
+
+Description:
+Fast-paced movies with fights and adventure.
+
+Recommended Movies:
+- John Wick
+- Mad Max: Fury Road
+- The Dark Knight
+```
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+* Rule-Based AI Concepts
+* Python Dictionaries
+* Conditional Statements
+* User Input Processing
+* Looping and Dynamic Data Handling
+* Interactive Console Application Development
+
+## 🚀 Future Improvements
+
+* Add more genres
+* Search movies by actor
+* Movie rating system
+* Database integration
+* Voice interaction
+* GUI application using Tkinter
+
+## 👩‍💻 Author
+
+Alishba Waseem
+
+## 📜 License
+
+This project is created for educational and learning purposes.
